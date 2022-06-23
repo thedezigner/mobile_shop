@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
 .container {
     max-width: 1620px!important;
     margin: 0 auto;
@@ -41,9 +45,6 @@ ul {
 
 /* Main section  */
 
-main {
-    overflow-x: hidden;
-}
 .main_wrap {
     margin-top: 120px;
 }
@@ -51,27 +52,27 @@ main {
 .discription {
     margin-bottom: 150px;
 }
-.right_content {
+.main_wrap .right_content {
     position: relative;
 }
 .background_heading {
     position: absolute;
     left: 0;
     top: 0;
-    transform: rotate(-90deg) translate(-7%, -60%);
+    transform: rotate(-90deg) translate(-7%, -85%);
     font-size: 240px;
     font-weight: 700;
     opacity: 0.05;
 }
-.product_slider {
+.main_wrap .product_slider {
     width: 150%;
     margin-left: 200px!important;
 }
-.product_image {
+.main_wrap .product_image {
     padding: 30px 10px;
 }
-.product_image img{
-    width: 500px;
+.main_wrap .product_image img{
+    width: 470px;
 }
 .watch_product {
     position: relative;
@@ -85,11 +86,61 @@ main {
     border-radius: 20px;
     transform: translate(8px, -8px);
 }
-.slick-slide {
+.main_wrap .slick-slide {
     background: #fff;
     border: 1px solid #A0AEC0;
-    width: 520px!important;
+    width: 490px!important;
+    transform: translateX(324px);
 }
-.slick-slide img {
+.main_wrap .slick-slide img {
     position: relative;
+}
+
+
+/* section */
+
+section {
+    margin: 100px 0;
+}
+.section_heading {
+    margin-bottom: 100px;
+}
+
+/* Accordion */
+.card {
+    width: 56%;
+}
+.card.collapsed {
+    width: 14.5%;
+}
+.card .card_cover {
+    display: none;
+}
+.card.collapsed .card_cover {
+    display: block;
+}
+.card-body, .card-header {
+    padding: 0;
+}
+.card-body img, .card_cover img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.social_media_main_wrap {
+    background: url(../Images/Follow_us_bg.png);
+    padding: 100px;
+}
+
+h4.smc_disc {
+    margin-bottom: 150px;
+}
+h1.smc_heading {
+    margin-bottom: 20px;
+}
+
+.follow_now {
+    background: #fff;
+    color: #004394!important;
 }
