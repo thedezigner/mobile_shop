@@ -1,16 +1,3 @@
-// $(document).ready(function(){
-
-//     $('.offerItemTitle').click(function(){
-
-//       $(this).parents('.offerslide').children('.offerItem').removeClass('active');
-//       $(this).parents('.offerslide').children('.offerItem').children('.offerItemTitle').removeClass('hide');
-//       $(this).parent('.offerItem').addClass('active');
-//       $(this).addClass('hide');
-
-//     });
-// });
-
-
 $(document).ready(function(){
 
   $('.offerItem').click(function(){
@@ -19,6 +6,23 @@ $(document).ready(function(){
     $('.offerItemTitle').removeClass('hide');
     $(this).addClass('active');
     $(this).children('.offerItemTitle').addClass('hide');
+  });
+});
+
+
+
+
+$(document).ready(function(){
+
+  $('.hamburger').click(function() {
+    if($('.hamburger').hasClass('active')) {
+      $('.hamburger').removeClass('active');
+      $('body').removeClass('fixed');
+    }
+    else{
+      $('.hamburger').addClass('active');
+      $('body').addClass('fixed');
+    }
   });
 });
 

@@ -24,8 +24,13 @@
                 <div class="logo">
                     <img src="Images/logo.png" alt="">
                 </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <nav class="w-100 d-flex justify-content-between align-items-center">
-                    <ul class="main_menu d-flex">
+                    <ul class="main_menu d-lg-flex d-md-flex d-sm-flex">
                         <li class="mr-lg-5 mr-md-3"><a href="">HOME</a></li>
                         <li class="mr-lg-5 mr-md-3"><a href="">IPHONE</a></li>
                         <li class="mr-lg-5 mr-md-3"><a href="">IWATCHES</a></li>
@@ -34,8 +39,59 @@
                         <li class="mr-lg-5 mr-md-3"><a href="">ABOUT US</a></li>
                     </ul>
                     <ul class="icon_menu d-flex">
-                        <li class="ml-lg-4 ml-md-3"><a href=""><img src="Images/truck-fast.png" alt=""></a></li>
-                        <li class="ml-lg-4 ml-md-3"><a href=""><img src="Images/bag-2.png" alt=""></a></li>
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/truck-fast.png" alt="">
+                            </a>
+                        </li>
+                        <li class="ml-lg-4 ml-md-3">
+                            <a href="">
+                                <img src="Images/bag-2.png" alt="">
+                                <ul class="cart_hover">
+                                    <li>
+                                        <a href="" class="d-flex cart_product_link">
+                                            <div class="cart_product_image">
+                                                <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                            </div>
+                                            <div class="cart_pro_detail">
+                                                <div class="cart_product_cata">
+                                                    iPhone
+                                                </div>
+                                                <div class="cart_product_heading">
+                                                    Apple iPhone 13 Pro 
+                                                    (128GB) - Sierra Blue
+                                                </div>
+                                                <div class="color_btn">
+                                                    Sierra Blue
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="d-flex cart_product_link">
+                                            <div class="cart_product_image">
+                                                <img src="Images/Products/iphoneBlue/i_phone11.png" alt="">
+                                            </div>
+                                            <div class="cart_pro_detail">
+                                                <div class="cart_product_cata">
+                                                    iPhone
+                                                </div>
+                                                <div class="cart_product_heading">
+                                                    Apple iPhone 13 Pro 
+                                                    (128GB) - Sierra Blue
+                                                </div>
+                                                <div class="color_btn">
+                                                    Sierra Blue
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="buy_now_btn">Buy Now</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
                         <li class="ml-lg-4 ml-md-3"><a href=""><img src="Images/profile.png" alt=""></a></li>
                     </ul>
                 </nav>
@@ -150,85 +206,86 @@
 
     <section class="our_categories">
         <div class="container">
-            <h1 class="section_heading mb-5 pb-5 font-weight-bold text-center">
+            <h1 class="section_heading my-5 py-5 font-weight-bold text-center">
                 Our Categories
             </h1>
         </div>
         <div class="vertical_accordion">
-            <!--offer section area-->
-    <section class="offer-area position-relative w-100 section">
-        <div class="offer-tabs tab-content">
-            <div class="offerslide">
-                <div class="offerItem w-md-100 active">
-                    <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100 hide">test Heading</h4>
-                    <div class="offer-detail w-100">
-                        <div class="row">
-                            <div class="col">
-                                <div class="offer-img m-md-0">
-                                    <img src="Images/apple-iphone-11-1 1.png" alt="" class="img-fluid w-100">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
-                                    <h2 class="text-left">Test Heading</h2>
-                                    <a href="javascript:;">Learn More </i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="offerItem w-md-100">
-                    <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100">test Heading</h4>
-                    <div class="offer-detail w-100">
-                        <div class="row">
-                            <div class="col">
-                                <div class="offer-img">
-                                    <img src="Images/Accordion product images/iWatch.jpg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
-                                    <h2 class="text-left">Test Heading</h2>
-                                    <a href="javascript:;">Learn More </i></a>
+            <div class="offer-area position-relative w-100 section">
+                <div class="offer-tabs tab-content">
+                    <div class="offerslide">
+                        <div class="offerItem w-md-100 active">
+                            <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100 hide">test Heading</h4>
+                            <div class="offer-detail w-100">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="offer-img m-md-0">
+                                            <img src="Images/apple-iphone-11-1 1.png" alt="" class="img-fluid w-100">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
+                                            <h2 class="text-left">Test Heading</h2>
+                                            <a href="javascript:;">Learn More </i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="offerItem w-md-100">
-                    <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100">test Heading</h4>
-                    <div class="offer-detail w-100">
-                        <div class="row">
-                            <div class="col">
-                                <div class="offer-img">
-                                    <img src="Images/Accordion product images/Airpods.jpg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
-                                    <h2 class="text-left">Test Heading</h2>
-                                    <a href="javascript:;">Learn More </i></a>
+                        
+                        <div class="offerItem w-md-100">
+                            <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100">test Heading</h4>
+                            <div class="offer-detail w-100">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="offer-img">
+                                            <img src="Images/Accordion product images/iWatch.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
+                                            <h2 class="text-left">Test Heading</h2>
+                                            <a href="javascript:;">Learn More </i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="offerItem w-md-100">
-                    <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100   ">test Heading</h4>
-                    <div class="offer-detail w-100">
-                        <div class="row">
-                            <div class="col">
-                                <div class="offer-img">
-                                    <img src="Images/Accordion product images/iWatch_charger.jpg" alt="" class="img-fluid">
+                        
+                        <div class="offerItem w-md-100">
+                            <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100">test Heading</h4>
+                            <div class="offer-detail w-100">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="offer-img">
+                                            <img src="Images/Accordion product images/Airpods.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
+                                            <h2 class="text-left">Test Heading</h2>
+                                            <a href="javascript:;">Learn More </i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col">
-                                <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
-                                    <h2 class="text-left">Test Heading</h2>
-                                    <a href="javascript:;">Learn More </i></a>
+                        </div>
+                        
+                        <div class="offerItem w-md-100">
+                            <h4 class="offerItemTitle position-absolute text-dark m-auto text-lg-center text-md-left w-md-100   ">test Heading</h4>
+                            <div class="offer-detail w-100">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="offer-img">
+                                            <img src="Images/Accordion product images/iWatch_charger.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="offer-content d-flex align-items-center justify-content-between mx-auto my-5 position-relative">
+                                            <h2 class="text-left">Test Heading</h2>
+                                            <a href="javascript:;">Learn More </i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -237,13 +294,10 @@
             </div>
         </div>
     </section>
-    <!--offer section area end-->
-        </div>
-    </section>
 
     <section class="our_categories">
         <div class="container">
-            <h1 class="section_heading font-weight-bold text-center">
+            <h1 class="section_heading my-5 py-5 font-weight-bold text-center">
                 Best Selling Products
             </h1>
             <div class="product_slider mb-5 pb-5">
@@ -353,7 +407,7 @@
         <div class="container">
             <div class="social_media_main_wrap">
                 <h1 class="smc_heading mb-4 text-white">Follow us on social media</h1>
-                <h4 class="smc_disc text-white mb-5 pb-5">For best offer & daily updates, please follow us on instgarm , facebook , snapchat.</h4>
+                <h4 class="smc_disc text-white mb-5 pb-5">For best offer & daily updates, please follow us on instgarm, facebook, snapchat.</h4>
                 <div class="follow_now button_wrap text-white font-weight-bold">Shop Now</div>
             </div>
         </div>
@@ -380,7 +434,7 @@
 
     <section class="two_side_section">
         <div class="container">
-            <div class="alternate two_side_section_wrap d-md-block d-lg-flex align-items-center">
+            <div class="alternate two_side_section_wrap d-flex align-items-center">
                 <div class="right_part side_section_content d-flex flex-column justify-content-between mt-md-3">
                     <div class="tss_main_content">
                         <h2 class="tss_heading font-weight-bold mb-4">Our Best Collaborations</h2>
@@ -493,23 +547,23 @@
                     <h6 class="company_discr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur amet pellentesque quisque et lacinia aliquet.</h6>
                 </div>
                 <h6 class="footer_menu px-lg-4 py-lg-4 font-weight-bold mb-4 d-lg-flex">
-                    <ul>
-                        <li class="menu_heading">Useful Links</li>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Useful Links</li>
                         <li><a href="">Terms & Condition</a></li>
                         <li><a href="">Privacy Policy</a></li>
                         <li><a href="">Refund Policy</a></li>
                         <li><a href="">Return Policy</a></li>
                         <li><a href="">About Us</a></li>
                     </ul>
-                    <ul>
-                        <li class="menu_heading">Accesories</li>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Accesories</li>
                         <li><a href="">Mobile phones</a></li>
                         <li><a href="">Airpods</a></li>
                         <li><a href="">iWatch</a></li>
                         <li><a href="">iPhone</a></li>
                     </ul>
-                    <ul>
-                        <li class="menu_heading">Menu</li>
+                    <ul class="mx-lg-5 mt-md-5 font-weight-medium">
+                        <li class="menu_heading font-weight-bold">Menu</li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Contact us</a></li>
                         <li><a href="">Privacypolicy</a></li>
@@ -549,6 +603,15 @@
             slidesToScroll: 4,
             autoplay: true,
             autoplaySpeed: 2000,
+            responsive: [
+                {
+                breakpoint: 769,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
         });
     });
 </script>
