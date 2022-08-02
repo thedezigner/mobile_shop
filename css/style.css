@@ -1124,3 +1124,20 @@ h5.product_ac_size {
 .payout_product_image {
     width: 15%;
 }
+
+.product_image .pro_tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.no_of_project {
+    background: #00DEC8;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    padding: 0px 6px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
